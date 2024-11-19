@@ -76,6 +76,13 @@ For any questions, please contact the authors:
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```bibtex
+@article{min2023bridging,
+  title={Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing},
+  author={Min, Jeongho and Lee, Yejun and Kim, Dongyoung and Yoo, Jaejun},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2023},
+  publisher={IEEE}
+}
 @article{min2024bridging,
   title={Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing},
   author={Min, Jeongho and Lee, Yejun and Kim, Dongyoung and Yoo, Jaejun},
