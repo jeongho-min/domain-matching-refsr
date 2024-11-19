@@ -9,7 +9,7 @@ We propose a simple but effective domain matching method for reference-based ima
 2. Whitening and Coloring Transform (WCT) - Aligns feature distributions 
 3. Phase Replacement (PR) - Preserves structural information
 
-![overview](assets/overview.png)
+![overview](Overview-1.png)
 
 ## Features
 - Plug-and-play domain matching modules for existing RefSR models
