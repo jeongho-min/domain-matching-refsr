@@ -55,25 +55,18 @@ sr = datsr(lr, matched_features)
 ## Results
 
 ### Quantitative Results on RRSSRD Test Set
-| Method | PSNR↑ | SSIM↑ |
-|--------|--------|--------|
-| C2-Matching | 34.05 | 0.891 |
-| + Ours | 34.08 | 0.891 |
-| AMSA | 34.12 | 0.891 | 
-| + Ours | 34.16 | 0.892 |
-| DATSR | 33.98 | 0.890 |
-| + Ours | 34.10 | 0.891 |
 
-## Citation
-If you find this work useful for your research, please cite our paper:
-```bibtex
-@article{min2024bridging,
-  title={Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing},
-  author={Min, Jeongho and Lee, Yejun and Kim, Dongyoung and Yoo, Jaejun},
-  journal={arXiv preprint arXiv:2401.15944},
-  year={2024}
-}
-```
+| Method | Params | 1st test set | 2nd test set | 3rd test set | 4th test set |
+|--------|---------|--------------|--------------|--------------|--------------|
+|        |         | PSNR/SSIM    | PSNR/SSIM    | PSNR/SSIM    | PSNR/SSIM    |
+| C2-Matching | 8.9M | 34.05/0.891 | 33.13/0.860 | 31.19/0.827 | 33.37/0.847 |
+| + Proposed |     | +0.03/+0.000 | +0.10/+0.001 | +0.14/+0.003 | +0.12/+0.001 |
+| AMSA | 9.7M | 34.12/0.891 | 33.16/0.860 | 31.24/0.828 | 33.43/0.847 |
+| + Proposed |     | +0.04/+0.001 | +0.05/+0.001 | +0.07/+0.002 | +0.07/+0.002 |
+| DATSR | 18.9M | 33.98/0.890 | 33.03/0.858 | 31.13/0.826 | 32.28/0.845 |
+| + Proposed |     | +0.12/+0.001 | +0.16/+0.003 | +0.18/+0.003 | +0.16/+0.002 |
+
+
 
 ## Contact
 For any questions, please contact the authors:
