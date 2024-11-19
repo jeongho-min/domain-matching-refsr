@@ -1,7 +1,7 @@
 # Domain Matching for Reference-based Super Resolution
 
-Official implementation of "Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing"
-
+Official implementation of "Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing (GRSL 2023)"
+[Paper](https://arxiv.org/pdf/2401.15944.pdf) | [Project Page](#)
 ## Overview
 We propose a simple but effective domain matching method for reference-based image super-resolution (RefSR) that works well even when there is a large domain gap between input and reference images. Our method consists of three key components:
 
@@ -73,8 +73,16 @@ For any questions, please contact the authors:
 - Jeongho Min (jeongho.min@unist.ac.kr)
 - Jaejun Yoo (jaejun.yoo@unist.ac.kr)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Citation
+If you find this work useful for your research, please cite our paper:
+```bibtex
+@article{min2024bridging,
+  title={Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing},
+  author={Min, Jeongho and Lee, Yejun and Kim, Dongyoung and Yoo, Jaejun},
+  journal={arXiv preprint arXiv:2401.15944},
+  year={2024}
+}
+```
 
 ## Acknowledgements
 This work was supported by KRIT, NRF Korea, and IITP grants.
