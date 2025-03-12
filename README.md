@@ -1,4 +1,4 @@
-# Domain Matching for Reference-based Super Resolution
+# Official implementation of "Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing (GRSL 2023)"
 
 Official implementation of "Bridging the Domain Gap: A Simple Domain Matching Method for Reference-based Image Super-Resolution in Remote Sensing (GRSL 2023)"
 [Paper](https://arxiv.org/pdf/2401.15944.pdf) | [Project Page](#)
